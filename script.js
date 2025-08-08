@@ -1,23 +1,23 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
-		this.width = width;
-		this.height = height;
+		this._width = width;
+		this._height = height;
 	}
 	get width(){
-	    return this.width 
+	    return this._width 
 	}
 	set width(value){
-		return this.width = value;
+		return this._width = value;
 	}
 	set height(value){
-		return this.height = value;
+		return this._height = value;
 	}
 	get height(){
-	    return this.height;
+	    return this._height;
 	}
 	getArea(){
-		return this.width*this.height;
+		return this._width*this._height;
 	}
 }
 
