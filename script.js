@@ -7,6 +7,12 @@ class Rectangle {
 	get width(){
 	    return this.width 
 	}
+	set width(value){
+		return this.width = value;
+	}
+	set height(value){
+		return this.height = value;
+	}
 	get height(){
 	    return this.height;
 	}
